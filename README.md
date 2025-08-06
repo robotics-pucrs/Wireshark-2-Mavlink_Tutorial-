@@ -1,7 +1,7 @@
 # Wireshark-2-Mavlink_Tutorial
 Tutorial completo de instalação das ferramentas necessárias para visualizar a comunição Mavlink entre Ground Control Station e Drone.
 
-## Instalando Ground Control Station
+## Instalando Ground Control Station(GCS)
 
 Seguir tutorial de instalação [daqui](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html).\
 Depois de instalado, para conectar-se no drone você deve ir em:\
@@ -21,6 +21,6 @@ Coloque o nome que você preferir, mude Type para UDP e coloque o IPV4 do drone 
 ## Instalando Wireshark
 
 Seguir tutorial de instalação [daqui](https://www.wireshark.org/docs/wsug_html_chunked/ChBuildInstallUnixInstallBins.html).\
-
+Depois de instalado, você deve instalar o Plug-in para conseguir ver a comunicação MAVLINK entre a GCS e o drone. [Tutorial de instalação do Plug-in](https://mavlink.io/en/guide/wireshark.html).\
 
 
