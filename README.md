@@ -23,7 +23,7 @@ Coloque o nome que você preferir, mude Type para UDP e coloque o IPv4 do drone 
 Seguir tutorial de instalação [daqui](https://www.wireshark.org/docs/wsug_html_chunked/ChBuildInstallUnixInstallBins.html).\
 Depois de instalado, você deve instalar o Plugin para conseguir ver a comunicação MAVLink entre a GCS e o drone. [Tutorial de instalação do Plugin](https://mavlink.io/en/guide/wireshark.html). \
 Caso não tenha uma pasta em ~/.local/lib/wireshark/plugins, você deve criá-la e copiar o Plugin para lá. <br/>
-É previsto um erro ao abrir o Wireshark depois de instalar o Plugin\
+É previsto um erro ao abrir o Wireshark depois de instalar o Plugin: \
 <img width="497" height="261" alt="image" src="https://github.com/user-attachments/assets/3c31abe4-3a4c-4fad-939e-c24142658cdd" />\
 Para resolver esse problema, abra o mavlink_2_common.lua com algum editor de texto e na linha 6754 mude base.HEX_DEC para base.DEC: \
 <img width="879" height="84" alt="image" src="https://github.com/user-attachments/assets/b573f821-030d-47be-a416-8e1863f4a301" />
