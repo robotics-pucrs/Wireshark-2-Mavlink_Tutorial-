@@ -3,7 +3,7 @@ Tutorial completo de instalação das ferramentas necessárias para visualizar a
 
 ## Instalando Ground Control Station
 
-Seguir tutorial de instalação [daqui](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html).
+Seguir tutorial de instalação [daqui](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html).\
 Depois de instalado, para conectar-se no drone você deve ir em:<br/>
 <img width="200" height="218" alt="image" src="https://github.com/user-attachments/assets/073a4d7a-e403-4d5a-bfb2-93d25eaf6532" /><br/>
 Application Settings<br/>
