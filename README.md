@@ -3,8 +3,13 @@ Tutorial completo de instalação das ferramentas necessárias para visualizar a
 
 ## Configurando acesso remoto(SSH)
 Utilizando o comando `ssh` você pode acessar remotamente o drone através da rede de internet, precisando saber o usuário e o IPv4 do drone para acessá-lo, exemplo: `ssh pi@192.168.0.100`. \
-O usuário padrão da Raspberry é `pi`, para descobrir o IPv4 é necessário olhar a lista DHCP do seu roteador. \
-Para abrir a porta de acesso de conexão entre a GCS e o drone é necessário rodar o script `mavlink.sh` utilizando o comando: `./mavlink.sh`, isso vai trancar seu terminal no processo. \
+O usuário padrão da Raspberry é `pi`, para descobrir o IPv4 é necessário olhar a lista DHCP do seu roteador ou utilizando o comando `blablabla tenho que pesquisar qual é` \
+Ao conectar-se pela primeira vez, você vai ver a seguinte mensagem: \
+TENHO QUE TIRAR UM PRINT E BOTAR AQUI \
+Digite `yes` e prossiga. \
+Você saberá que está conectado no drone quando a interface mostrar o nome de usuário e o Hostname aqui: \
+TENHO QUE TIRAR UM PRINT E BOTAR AQUI \
+Para abrir a porta de acesso de conexão entre a GCS e o drone é necessário rodar o script `mavlink.sh` utilizando o comando: `./mavlink.sh`, isso vai trancar seu terminal no processo.
 
 ## Instalando Ground Control Station(GCS)
 
