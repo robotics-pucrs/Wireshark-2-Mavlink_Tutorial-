@@ -1,6 +1,11 @@
 # Wireshark-2-Mavlink_Tutorial
 Tutorial completo de instalação das ferramentas necessárias para visualizar a comunição Mavlink entre Ground Control Station e Drone.
 
+## Configurando acesso remoto(SSH)
+Utilizando o comando `ssh` você pode acessar remotamente o drone através da rede de internet, precisando saber o usuário e o IPv4 do drone para acessá-lo, exemplo: `ssh pi@192.168.0.100`. \
+O usuário padrão da Raspberry é `pi`, para descobrir o IPv4 é necessário olhar a lista DHCP do seu roteador. \
+Para abrir a porta de acesso de conexão entre a GCS e o drone é necessário rodar o script `mavlink.sh` utilizando o comando: `./mavlink.sh`, isso vai trancar seu terminal no processo. \
+
 ## Instalando Ground Control Station(GCS)
 
 Seguir tutorial de instalação [daqui](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html).\
@@ -12,11 +17,8 @@ Comm Links\
 <img width="325" height="326" alt="image" src="https://github.com/user-attachments/assets/2627965b-be67-4095-a653-cfde358a548d" />\
 Add\
 <img width="386" height="71" alt="image" src="https://github.com/user-attachments/assets/a24f3538-249d-4484-b419-60d32eeca839" />\
-Coloque o nome que você preferir, mude Type para UDP e coloque o IPv4 do drone seguido da porta(14550)\
+Coloque o nome que você preferir, mude Type para UDP e coloque o IPv4 do drone seguido da porta `14550`\
 <img width="442" height="392" alt="image" src="https://github.com/user-attachments/assets/ab9d9fa7-a54f-46eb-9b03-0b6edc05d78e" />
-
-
-
 
 ## Instalando Wireshark
 
