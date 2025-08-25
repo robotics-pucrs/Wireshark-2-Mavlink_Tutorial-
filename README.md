@@ -4,7 +4,7 @@ Tutorial completo de instalação das ferramentas necessárias para visualizar a
 ## Configurando acesso remoto(SSH)
 Utilizando o comando `ssh` você pode acessar remotamente o drone através da rede de internet, precisando saber o usuário e o IPv4 do drone para acessá-lo, exemplo: `ssh pi@192.168.0.100`. \
 O usuário padrão da Raspberry é `pi`, para descobrir o IPv4 é necessário olhar a lista DHCP do seu roteador: \
-<img width="999" height="606" alt="image" src="https://github.com/user-attachments/assets/993b32a1-f1a4-4dc7-8f31-804941840a9f" /> \
+<img width="699" height="424" alt="image" src="https://github.com/user-attachments/assets/993b32a1-f1a4-4dc7-8f31-804941840a9f" /> \
 Ao conectar-se pela primeira vez, você vai ver a seguinte mensagem: \
 <img width="655" height="452" alt="image" src="https://github.com/user-attachments/assets/76b6fdfe-18b2-4a9b-bff9-9de57bb41f6f" /> \
 Digite `yes` e prossiga. \
